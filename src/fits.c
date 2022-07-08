@@ -6,6 +6,10 @@
 
 #include "fits.h"
 
+char   MYNAME[100];
+size_t IDERR;
+double EPS;
+
 void *readFits(const Config *para, int *bitpix, int *typecode, char *tform, int *status, long naxes[2], double (**toDouble)(void *,long), int *size){
    /* Reads fits file and return info. "toDouble" is a pointer to a pointer of a function. */
 
