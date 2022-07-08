@@ -130,9 +130,9 @@ typedef struct Node
  *    Global variables
  */
 
-char   MYNAME[100];
-size_t IDERR;
-double EPS;
+extern char   MYNAME[100];
+extern size_t IDERR;
+extern double EPS;
 
 /*
  * 	Utils - geometric
